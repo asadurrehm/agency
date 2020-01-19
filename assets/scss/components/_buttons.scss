@@ -1,0 +1,17 @@
+.btn1{
+  border-radius: 50px;
+  @include font($ra, 400);
+  padding: 0.5rem 2rem;
+}
+.ho{
+    &:hover{
+        color:$c3;
+        text-decoration: none;
+    }
+}
+.ho2{
+    &:hover{
+        color:$wh;
+        text-decoration: none;
+    }
+}

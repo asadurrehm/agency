@@ -1,0 +1,275 @@
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800; }
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+i {
+  font-size: 18px; }
+
+.c1 {
+  color: #699d31; }
+
+.c2 {
+  color: #333333; }
+
+.c3 {
+  color: #7a7a7a; }
+
+.wh {
+  color: #fff; }
+
+.bg1 {
+  background-color: #699d31; }
+
+.bg2 {
+  background-color: #333333; }
+
+.bg3 {
+  background-color: #fff; }
+
+body {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+hr {
+  background-color: #699d31;
+  width: 10%; }
+
+.hr2 {
+  background-color: #333333;
+  width: 10%; }
+
+.hr3 {
+  background-color: #fff;
+  width: 10%; }
+
+i {
+  font-size: 24px; }
+
+.horz {
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+.vert {
+  margin-top: 50%;
+  transform: translateY(-50%); }
+
+.vertab {
+  top: 50%;
+  transform: translateY(-50%); }
+
+.btn1 {
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding: 0.5rem 2rem; }
+
+.ho:hover {
+  color: #7a7a7a;
+  text-decoration: none; }
+
+.ho2:hover {
+  color: #fff;
+  text-decoration: none; }
+
+.top ul {
+  list-style-type: none; }
+  .top ul li {
+    display: inline; }
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  padding-bottom: 0.5rem;
+  transition: all 0.5s ease; }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 1px solid #699d31; }
+
+.banner {
+  background-color: #333333;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%); }
+  .banner img {
+    opacity: 0.1; }
+  .banner .carousel-item {
+    position: relative; }
+    .banner .carousel-item .carcont {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      .banner .carousel-item .carcont h1 {
+        animation-name: fadeInDown;
+        animation-duration: 1s; }
+      .banner .carousel-item .carcont p {
+        animation-name: fadeInUp;
+        animation-duration: 1s; }
+  .banner .mobban h1 {
+    animation-name: fadeInDown;
+    animation-duration: 1s; }
+  .banner .mobban p {
+    animation-name: fadeInUp;
+    animation-duration: 1s; }
+
+.about img {
+  width: 136px;
+  height: 136px; }
+
+.achievment {
+  background-color: #699d31;
+  position: relative; }
+  @media only screen and (min-width: 1200px) {
+    .achievment {
+      clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%); } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .achievment {
+      clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%); } }
+  .achievment img {
+    opacity: 0.1; }
+  @media only screen and (max-width: 991px) {
+    .achievment h2 {
+      padding-top: 4rem; } }
+  @media only screen and (min-width: 992px) {
+    .achievment .conach {
+      position: absolute;
+      top: 20%;
+      width: 100%; } }
+  .achievment .conach .row .card {
+    padding: 2rem 1rem; }
+
+.portfolio .list-group-item.active {
+  background-color: #699d31;
+  border: none; }
+
+.portfolio .list-group .list-group-item {
+  color: #333333;
+  font-weight: 600; }
+  .portfolio .list-group .list-group-item.active {
+    color: #fff; }
+
+.portfolio .card {
+  min-width: 350px;
+  min-height: 350px;
+  position: relative;
+  background-color: #333333;
+  transition: all 0.5s ease; }
+  .portfolio .card img {
+    transition: all 0.5s ease; }
+  .portfolio .card:hover img {
+    opacity: 0.2; }
+  .portfolio .card:hover .pcont {
+    transform: scale(1) translateY(-50%); }
+  .portfolio .card .pcont {
+    position: absolute;
+    transform: scale(0);
+    width: 100%;
+    transition: all 0.5s ease; }
+    .portfolio .card .pcont a {
+      border: 1px solid #fff; }
+
+.testi {
+  background-color: #333333;
+  position: relative; }
+  @media only screen and (min-width: 1200px) {
+    .testi {
+      clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%); }
+      .testi h2 {
+        padding-top: 3rem; } }
+  @media only screen and (max-width: 1199px) {
+    .testi {
+      padding-bottom: 3rem; }
+      .testi h2 {
+        padding-top: 3rem; } }
+  .testi img {
+    opacity: 0.1; }
+  @media only screen and (min-width: 992px) {
+    .testi .testicont {
+      position: absolute;
+      width: 100%; } }
+  @media only screen and (max-width: 991px) {
+    .testi .testicont {
+      transform: translateY(0); } }
+
+.team .card {
+  width: 250px; }
+
+.recentpost {
+  position: relative; }
+  @media only screen and (max-width: 1199px) {
+    .recentpost {
+      background-color: #699d31;
+      padding-bottom: 50px; }
+      .recentpost .backimg {
+        display: none; }
+      .recentpost h2 {
+        color: #fff; }
+      .recentpost hr {
+        background-color: #fff; } }
+  @media only screen and (min-width: 1200px) {
+    .recentpost {
+      clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%); } }
+  @media only screen and (min-width: 1200px) {
+    .recentpost .recont {
+      position: absolute;
+      top: 25%; } }
+  @media only screen and (max-width: 1199px) {
+    .recentpost .recont {
+      margin-top: 50px; } }
+  .recentpost .recont .card {
+    width: 300px; }
+
+footer {
+  position: relative; }
+  @media only screen and (min-width: 1200px) {
+    footer {
+      background: #000; } }
+  @media only screen and (max-width: 1199px) {
+    footer {
+      padding-top: 4rem;
+      background: #333333;
+      padding-bottom: 2rem; } }
+  footer img {
+    opacity: 0.1; }
+    @media only screen and (max-width: 1199px) {
+      footer img {
+        display: none; } }
+  @media only screen and (min-width: 1199px) {
+    footer .footcont {
+      position: absolute;
+      top: 10%; } }
+  footer .footcont i {
+    font-size: 36px; }
+  footer .footcont p i {
+    font-size: 18px; }
+  footer .footcont a i {
+    font-size: 32px; }
+    footer .footcont a i:hover {
+      color: #699d31; }

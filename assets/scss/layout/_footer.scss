@@ -1,0 +1,41 @@
+footer{
+    position: relative;
+    
+    @media only screen and (min-width:1200px){
+        background: #000;   
+    }
+    @media only screen and (max-width:1199px){
+        padding-top:4rem;
+        background: $c2;
+        padding-bottom: 2rem;
+        
+    }
+    img{
+        opacity:0.1;
+        @media only screen and (max-width:1199px){
+            display: none;
+        }
+    }
+    .footcont{
+        @media only screen and (min-width:1199px){
+            position: absolute;
+            top:10%;
+        }
+        i{
+            font-size: 36px;
+        }
+        p{
+            i{
+                font-size: 18px;
+            }
+        }
+        a{
+            i{
+                font-size: 32px;
+                &:hover{
+                    color:$c1;
+                }
+            }
+        }
+    }
+}

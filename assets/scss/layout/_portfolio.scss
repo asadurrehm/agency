@@ -1,0 +1,45 @@
+.portfolio{
+    .list-group-item.active{
+        background-color: $c1;
+
+        border:none;
+    }
+    .list-group{
+        .list-group-item{
+             color:$c2;
+             font-weight: 600;
+             &.active{
+                 color:$wh;
+             }
+        }
+        
+    }
+    .card{
+        min-width: 350px;
+        min-height: 350px;
+        position: relative;
+        background-color: $c2;
+        img{
+            transition: all 0.5s ease;    
+        }
+        transition: all 0.5s ease;
+        &:hover{
+            img{
+                opacity: 0.2;
+            }
+            .pcont{
+                transform: scale(1) translateY(-50%);
+            }
+        }
+
+        .pcont{
+            position: absolute;
+            transform: scale(0);
+            width:100%;
+            transition: all 0.5s ease;
+            a{
+                border:1px solid $wh;
+            }
+        }
+    }
+}

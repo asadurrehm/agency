@@ -1,0 +1,31 @@
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+hr{
+    background-color: $c1;
+    width:10%;
+}
+.hr2{
+    background-color: $c2;
+    width: 10%;
+}
+.hr3{
+    background-color: $wh;
+    width: 10%;
+}
+i{
+    font-size:24px;
+}
+.horz{
+    margin-left:50%;
+    transform: translateX(-50%);
+}
+.vert{
+    margin-top:50%;
+    transform: translateY(-50%);
+}
+.vertab{
+    top:50%;
+    transform: translateY(-50%);
+}

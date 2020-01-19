@@ -1,0 +1,32 @@
+.testi{
+    background-color: $c2;
+    @media only screen and (min-width:1200px){
+        clip-path: polygon(0% 10%, 100% 0%,100% 100%,0% 90%);
+        h2{
+            padding-top:3rem;
+        }
+    }
+    @media only screen and (max-width:1199px){
+        h2{
+            padding-top: 3rem;
+            
+        }
+        padding-bottom: 3rem;
+    }
+    position: relative;
+    img{
+        opacity: 0.1;
+    
+    }
+    .testicont{
+        @media only screen and (min-width:992px){
+        position: absolute;
+        
+        width: 100%;
+        
+        }
+        @media only screen and (max-width:991px){
+          transform: translateY(0);
+        }
+    }
+}

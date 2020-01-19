@@ -1,0 +1,29 @@
+h1{
+    @include font($po,800);
+}
+h2{
+    @include font($po,700);
+}
+h3{
+    @include font($po,600);
+}
+h4{
+    @include font($po,600);
+}
+h5{
+    @include font($po,500);
+}
+h6{
+    @include font($po,500);
+}
+p{
+    @include font2($ra,400,16px);
+}
+ul{
+   li{
+        @include font2($ra,400,16px);
+     }  
+}
+i{
+    font-size:18px;
+}
